@@ -28,7 +28,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # get arguments from terminal
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_path', type=str, default='best_model.pth')
+parser.add_argument('--model_path', type=str, default='models/best_model.pth')
 parser.add_argument('--data_dir', type=str, default='data/caltech-101/caltech-101/101_ObjectCategories')
 parser.add_argument('--idx_path', type=str, default='dataset_idx.pkl')
 parser.add_argument('--output_dir', type=str, default='results')
