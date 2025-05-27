@@ -192,7 +192,7 @@ for epoch in range(args.epochs):
     # save models and early stop
     if val_acc > best_acc:
         best_acc = val_acc
-        torch.save(model.state_dict(), 'models/best_model.pth')
+        torch.save(model.state_dict(), 'best_model.pth')
     else:
         patience -= 1
         if patience <= 0:
