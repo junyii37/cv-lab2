@@ -37,13 +37,13 @@ pip install -r task1/requirements
 
 Task1用到的数据集为Caltech-101.zip，准备步骤如下：
 
-（1）从https://drive.google.com/file/d/17UPyjHq6O8DhnkyzzDnwxRDRdH3rxa2P/view?usp=drive_link下载`caltech-101.zip`。
+（1）从 https://drive.google.com/file/d/17UPyjHq6O8DhnkyzzDnwxRDRdH3rxa2P/view?usp=drive_link 下载`caltech-101.zip`。
 
 （2）解压缩后放在`cv-lab2/task1/data`目录下（需新建目录`data`）。
 
 ##### 1.2.2 模型准备
 
-从https://drive.google.com/file/d/1D2eiLp069wnVMpno9AKH6YfkDTDi_brw/view?usp=drive_link下载`best_model.pth`，直接放在`cv-lab2/task1`目录下
+从 https://drive.google.com/file/d/1D2eiLp069wnVMpno9AKH6YfkDTDi_brw/view?usp=drive_link 下载`best_model.pth`，直接放在`cv-lab2/task1`目录下
 
 
 
@@ -210,7 +210,7 @@ python demo/image_demo.py demo/demo.jpg rtmdet_tiny_8xb32-300e_coco.py --weights
 
 Task2所用的数据集为VOC2012，准备步骤如下：
 
-（1）从https://drive.google.com/file/d/11wnTQeAacWj7YbQSsuWuwPZlnymZL458/view?usp=drive_link下载`coco.zip`文件；
+（1）从 https://drive.google.com/file/d/11wnTQeAacWj7YbQSsuWuwPZlnymZL458/view?usp=drive_link 下载`coco.zip`文件；
 
 （2）解压缩后放到`cv-lab2/task2/mmdetection/data`目录下（需新建`data`目录）
 
